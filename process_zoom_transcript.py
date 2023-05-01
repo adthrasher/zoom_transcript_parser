@@ -28,8 +28,6 @@ def parse_text(args):
         for speaker in args.speaker:
             if line.startswith(speaker):
                 if speaker == current_speaker:
-                    print(speaker, current_speaker)
-                    print(re.sub(r'^.*?:', '', line))
                     current_paragraph.add_run(re.sub(r'^.*?:', '', line).strip())
                 else:
                     current_speaker = speaker
@@ -38,7 +36,6 @@ def parse_text(args):
     doc.save(args.output)
 
 def main(args):
-    print(args)
     parse_text(args)
 
 if __name__ == '__main__':
