@@ -37,6 +37,7 @@ def parse_text(args):
 
 def main(args):
     parse_text(args)
+    print('Output file:', args.output)
 
 if __name__ == '__main__':
     args = parseArguments()

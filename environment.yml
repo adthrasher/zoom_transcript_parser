@@ -1,0 +1,31 @@
+name: zoom
+channels:
+  - apple
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - bzip2=1.0.8=h0d85af4_4
+  - ca-certificates=2022.12.7=h033912b_0
+  - icu=72.1=h7336db1_0
+  - libexpat=2.5.0=hf0c8a7f_1
+  - libffi=3.4.2=h0d85af4_5
+  - libiconv=1.17=hac89ed1_0
+  - libsqlite=3.40.0=ha978bb4_1
+  - libxml2=2.10.4=h554bb67_0
+  - libxslt=1.1.37=h5d22bc9_0
+  - libzlib=1.2.13=hfd90126_4
+  - lxml=4.9.2=py311h9f2bb26_0
+  - ncurses=6.3=h96cf925_1
+  - openssl=3.1.0=h8a1eda9_2
+  - pip=23.1.2=pyhd8ed1ab_0
+  - python=3.11.3=h99528f9_0_cpython
+  - python-docx=0.8.11=pyhd8ed1ab_0
+  - python_abi=3.11=3_cp311
+  - readline=8.2=h9e318b2_1
+  - setuptools=67.7.2=pyhd8ed1ab_0
+  - tk=8.6.12=h5dbffcc_0
+  - tzdata=2023c=h71feb2d_0
+  - wheel=0.40.0=pyhd8ed1ab_0
+  - xz=5.2.6=h775f41a_0
+prefix: /Users/athrashe/miniconda3-intel/envs/zoom
