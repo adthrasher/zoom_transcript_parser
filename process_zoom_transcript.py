@@ -28,7 +28,7 @@ def parse_text(args):
         for speaker in args.speaker:
             if line.startswith(speaker):
                 if speaker == current_speaker:
-                    current_paragraph.add_run(re.sub(r'^.*?:', '', line).strip())
+                    current_paragraph.add_run(" " + re.sub(r'^.*?:', '', line).strip())
                 else:
                     current_speaker = speaker
                     current_paragraph = doc.add_paragraph(line.strip())
